@@ -6,7 +6,7 @@
 #    By: mizvchi <mizvchi>                          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/13 17:36:03 by mizvchi           #+#    #+#              #
-#    Updated: 2025/12/13 17:36:03 by mizvchi          ###   ########.fr        #
+#    Updated: 2026/01/21 01:14:15 by mizvchi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,9 +17,9 @@
 
 NAME			:=	libft.a
 
-INC_DIR			:=	.
-SRC_DIR			:=	.
-OBJ_DIR			:=	obj
+INC_DIR			:=	inc
+SRC_DIR			:=	src
+OBJ_DIR			:=	.obj
 
 CC				:=	cc
 CFLAGS			:=	-Wall -Wextra -Werror -I$(INC_DIR)
@@ -30,7 +30,7 @@ CFLAGS			:=	-Wall -Wextra -Werror -I$(INC_DIR)
 ##		SOURCES / OBJECTS
 #
 
-SRC_FILES		:= \
+SRC_FILES		:= 	\
 					ft_atoi.c \
 					ft_bzero.c \
 					ft_calloc.c \
@@ -66,7 +66,7 @@ SRC_FILES		:= \
 					ft_tolower.c \
 					ft_toupper.c \
 
-BONUS_SRC_FILES	:= \
+BONUS_SRC_FILES	:= 	\
 					ft_lstadd_back_bonus.c \
 					ft_lstadd_front_bonus.c \
 					ft_lstclear_bonus.c \
