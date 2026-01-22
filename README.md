@@ -1,6 +1,4 @@
 
-_This project has been created as part of the 42 curriculum by **mizvchi**_
-
 # Circle 0 - libft
 
 ### Grade: ✅ [125 / 100]
