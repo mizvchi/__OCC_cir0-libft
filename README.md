@@ -20,7 +20,7 @@ The project contains 2 parts:
 > _The old bonus functions (linked lists) are now MANDATORY._
 > _This repository is therefore obsolete, given the modification of the common core._
 >
-> _I plan to create a new repository shortly, taking into account the changes made to the Libft subject._
+> _See up-to-date [42 Common Core](#)._
 
 
 ## Instructions
